@@ -16,9 +16,9 @@
                 'required' => 'Nama Harus Di isi',
                 'min_length' => 'Nama terlalu pendek'
             ]
-        
+
         );
-        
+
         $this->form_validation->set_rules(
             'no',
             'no hp',
@@ -27,7 +27,7 @@
                 'required' => 'No HP Harus diisi',
                 'min_length' => 'No HP terlalu pendek'
             ]
-        
+
         );
 
         if ($this->form_validation->run() != true) {
@@ -58,3 +58,4 @@
         }
     }
 }
+
